@@ -1,0 +1,52 @@
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1
+$ git init
+Initialized empty Git repository in C:/Users/Lenovo/Desktop/java-task1/.git/
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1 (master)
+$ git add "java-task1.txt"
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1 (master)
+$ git commit -m "first commit"
+[master (root-commit) 2b36976] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 java-task1.txt
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1 (master)
+$ git add "java-task1.txt"
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1 (master)
+$ git commit -m "commit 2"
+[master 7c81df1] commit 2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1 (master)
+$ git add "java-task1.txt"
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1 (master)
+$ git commit -m "third commit"
+[master e6de885] third commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1 (master)
+$ git log
+commit e6de885a18bb7c3df244626e6e2ec6f67ab1054d (HEAD -> master)
+Author: Dumisani Chaitezvi <dchaite1@stu.vistula.edu.pl>
+Date:   Sun Nov 5 19:50:07 2023 +0100
+
+    third commit
+
+commit 7c81df1ad303b20be06f7a8084f1bc584d49408a
+Author: Dumisani Chaitezvi <dchaite1@stu.vistula.edu.pl>
+Date:   Sun Nov 5 19:49:08 2023 +0100
+
+    commit 2
+
+commit 2b369767d9d31f6641e2974c75ccfa7ac35eeea5
+Author: Dumisani Chaitezvi <dchaite1@stu.vistula.edu.pl>
+Date:   Sun Nov 5 19:47:51 2023 +0100
+
+    first commit
+
+CarterDumie@CARTER MINGW64 ~/Desktop/java-task1 (master)
+$ ^C
